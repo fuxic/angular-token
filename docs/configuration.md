@@ -59,7 +59,7 @@ Configuration options can be passed as `AngularTokenOptions` via `forRoot()`.
 | --------------------------------------- | ---------------------------------------- |
 | `signInStoredUrlStorageKey?: string`    | Sets locale storage key to store URL before displaying signIn page |
 | `signOutFailedValidate?: boolean`       | Signs user out when validation returns a 401 status |
-| `userTypes?: UserTypes[]`               | Allows the configuration of multiple user types (see [Multiple User Types](#multiple-user-types)) |
+| `userTypes?: UserTypes[]`               | Allows the configuration of multiple user types (see [Multiple User Types](https://angular-token.gitbook.io/docs/multiple-user-types)) |
 | `loginField?: string`                   | Allows the ability to configure a custom login field. Defaults to 'email' |
 
 ### OAuth options
